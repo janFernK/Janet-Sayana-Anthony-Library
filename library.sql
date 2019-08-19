@@ -652,7 +652,7 @@ BEGIN
     VALUES(booktitle, publisherID);
     
     SELECT bookId INTO idofBook
-    FROM tbl_book1
+    FROM tbl_book
     WHERE booktitle = title;
     
     IF idofgenre <> 0 THEN
